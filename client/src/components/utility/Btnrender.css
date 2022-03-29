@@ -1,0 +1,8 @@
+#btn_buy{
+    text-decoration: none;
+}
+.row_btn{
+    display: flex;
+    gap:30px;
+    justify-content: space-between;
+}

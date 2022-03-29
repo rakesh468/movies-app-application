@@ -1,0 +1,24 @@
+.image {
+    height: 400px;
+    width: 350px;
+    cursor: pointer;
+    object-fit: contain;
+  }
+  .info-spec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .movie-name {
+    font-size: 22px;
+  }
+.main-container {
+    width: 350px;
+    height: min-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: transform 100ms ease-in;
+  }
+  .main-container:hover {
+    transform: scale(1.02);
+  }
